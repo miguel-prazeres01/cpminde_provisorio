@@ -9,10 +9,13 @@ function App() {
 		<Stack minH={"100vh"}>
 			<AbsoluteCenter>
 				<Container centerContent>
-					<Text fontSize='2xl'>Sim, este é mesmo o site da CPM</Text>
+					<Center>
+						<Text align={"center"} fontSize={{ base: "medium", md: "2xl" }}>Sim, este é mesmo o site da CPM</Text>
+					</Center>
+					
 					<Center>	
 						<Flex gap={2}>
-							<Text align={"center"}>Estamos só a terminar umas coisas</Text>
+							<Text fontSize={{ base: "small", md: "medium" }} align={"center"}>Estamos só a terminar umas coisas</Text>
 							<FaRegFaceSmile/>
 						</Flex>
 					</Center>
